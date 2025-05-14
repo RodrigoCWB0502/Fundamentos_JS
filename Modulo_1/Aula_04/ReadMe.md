@@ -11,3 +11,5 @@
 ## Comentários são usados diversas vezes por programadores para realizar um código
 
 ![Exemplo de comentário em código](image.png)
+
+## FAZER QUIZ 01
