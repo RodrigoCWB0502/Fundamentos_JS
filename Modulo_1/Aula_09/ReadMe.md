@@ -1,14 +1,14 @@
-## Estruturas condicionais: If e Else
+# Estruturas condicionais: If e Else
 
-## Permite criar blocoos de código que vão ser executados somente quando uma determinada operação lógica for verdadeira
+# Permite criar blocoos de código que vão ser executados somente quando uma determinada operação lógica for verdadeira
 
-## SE condição === true ENTÃO faça algo
+# SE condição === true ENTÃO faça algo
 
-## Além disso, pode ser usado com o else para acrescentar um bloco que vai ser executado somente quando essa mesma operação lógica for falsa
+# Além disso, pode ser usado com o else para acrescentar um bloco que vai ser executado somente quando essa mesma operação lógica for falsa
 
-## SE condição === true ENTÃO faça uma coisa SENÃO faça outra coisa
+# SE condição === true ENTÃO faça uma coisa SENÃO faça outra coisa
 
-## Sintaxes: IF, ELSE, ELSE IF.
+# Sintaxes: IF, ELSE, ELSE IF.
 
                 **Exemplo com IF**
                 
@@ -34,4 +34,4 @@
                     //
                 }
 
-## Operador ternário: É uma forma abreviada e autoavaliada de IF ELSE. Sintaxe: const resultado = condicao ? resultado_verdadeiro : resultado falso
+# Operador ternário: É uma forma abreviada e autoavaliada de IF ELSE. Sintaxe: const resultado = condicao ? resultado_verdadeiro : resultado falso

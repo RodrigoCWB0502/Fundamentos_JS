@@ -1,8 +1,8 @@
-## Estrutura de dados
+# Estrutura de dados
 
-## São um modo particular de armazenar e organizar dados de modo que possam ser usados eficientemente, facilitando sua busca e modificação.
+# São um modo particular de armazenar e organizar dados de modo que possam ser usados eficientemente, facilitando sua busca e modificação.
 
-## Estrutura dos dados clássicos: 
+# Estrutura dos dados clássicos: 
 
 Lista ligada -> Coleção ordenada de valores onde cada elemento aponta para o próximo 
 
@@ -20,13 +20,13 @@ Pilha (Stack) -> Coleção de elementos onde o primeiro elemento a ser retirado 
 
 ![Exemplo de Árvore](image-2.png)
 
-## Estrutura de dados no JS (E outras linguagens de alto nível)
+# Estrutura de dados no JS (E outras linguagens de alto nível)
 
 Listas (Arrays)
 
 Dicinários (Objetos)
 
-## Valor e Referência 
+# Valor e Referência 
 
 ![IMPORTANTE](image-3.png)
 

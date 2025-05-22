@@ -1,8 +1,8 @@
-## Quiz 01 - Conceitos Basicos
+# Quiz 01 - Conceitos Basicos
 
-## Escreva um ## Verdadeira ao lado da unica alternativa correta em cada exercicio.
+# Escreva um ## Verdadeira ao lado da unica alternativa correta em cada exercicio.
 
-## O que é uma string?
+# O que é uma string?
 
 É um conjunto de números
 
@@ -14,7 +14,7 @@ Um valor lógico que pode ser true (verdadeiro) ou false (falso).
 
 É um tipo especial usado para listas de dados.
 
-## Qual é o resultado da expressão "Javascript".length + 2 * 8
+# Qual é o resultado da expressão "Javascript".length + 2 * 8
 
 82
 
@@ -26,7 +26,7 @@ Um valor lógico que pode ser true (verdadeiro) ou false (falso).
 
 26
 
-## O que faz o operador ++ ?
+# O que faz o operador ++ ?
 
 É um operador de soma entre dois valores.
 
@@ -38,7 +38,7 @@ Um valor lógico que pode ser true (verdadeiro) ou false (falso).
 
 É um operador que incrementa 1 unidade em um valor numérico.
 
-## Qual das alternativas apresenta a forma correta de escrever um comentário no javascript?
+# Qual das alternativas apresenta a forma correta de escrever um comentário no javascript?
 
 -- Isso é um comentário
 
@@ -48,7 +48,7 @@ Um valor lógico que pode ser true (verdadeiro) ou false (falso).
 
 % Isso é um comentário
 
-## Qual a diferença entre let e const?
+# Qual a diferença entre let e const?
 
 O let permite criar uma variável que pode receber um novo valor por atribuição posteriormente, enquanto o const cria uma variável cujo valor não pode ser mudado através de uma nova atribuição.
 
@@ -60,7 +60,7 @@ O const é a forma antiga de se declarar uma variável no javascript, enquanto o
 
 Ambos fazem a mesma coisa, porém o const é mais performático.
 
-## Qual é o resultado da expressão "Escola" + " " + "de" + "Javascript"[0] + "Javascript"[4]
+# Qual é o resultado da expressão "Escola" + " " + "de" + "Javascript"[0] + "Javascript"[4]
 
 Escola de JS
 
@@ -72,7 +72,7 @@ Escola de Js
 
 Escola deJS
 
-## O que é undefined?
+# O que é undefined?
 
 É um tipo primitivo do javascript usado para representar um valor vazio em uma variável.
 
@@ -84,7 +84,7 @@ Escola deJS
 
 É um tipo do javascript usado para representar variáveis que não são dos tipos primitivos number, string ou boolean.
 
-## O que faz o operador *= ?
+# O que faz o operador *= ?
 
 Realiza uma multiplicação entre dois valores.
 
@@ -96,7 +96,7 @@ Realiza uma soma entre o valor atual da variável e um outro valor e então atri
 
 Esse não é um operador válido no javascript.
 
-## O que é um valor boolean?
+# O que é um valor boolean?
 
 Um valor lógico que pode ser true (verdadeiro) ou false (falso).
 
@@ -108,7 +108,7 @@ Um valor textual.
 
 Um valor vazio.
 
-## Qual é o resultado da expressão ((3 + "javascript".length) * "HTML"[3].length + "CSS"[0]) + 10 % 3
+# Qual é o resultado da expressão ((3 + "javascript".length) * "HTML"[3].length + "CSS"[0]) + 10 % 3
 
 ‘13C1’
 
