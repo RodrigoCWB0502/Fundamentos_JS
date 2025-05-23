@@ -33,7 +33,7 @@ console.log(falseInclui);
 const indice = arr.indexOf("Gandalf") // Mostra o indice do elemento
 console.log(indice);
 
-// Cortar e Concatenar
+// Cortar
 // slice
 const hobbits = arr.slice(0, 4) // Copia os elementos até um certo indice e cria um novo array (Nome da váriavel) 
 // Considere isso dentro dos (), o primeiro numero antes de , é o indice, então começa no zero, e o segundo numero é quantos elementos ele deve copiar
@@ -44,3 +44,24 @@ const outros = arr.slice(-4) // Copiamos de trás para frente, então os ultimos
 console.log(arr); // Array original não é modificado
 console.log(hobbits); // Printa os 4 primeiros
 console.log(outros); // Printa os 4 ultimos
+
+// Concatenar
+// concat
+const sociedade = hobbits.concat(outros + "Boromir") 
+// Cria o array Sociedade, concatenamos (juntamos) o array hobbits, com outros e acrescentando Boromir
+console.log(sociedade);
+
+// Substituição de elementos
+// Splice
+const elementosRemovidos = sociedade.splice(indice, 1, "Gandalf, o Cinzento") // Achamos a variavel indice, (linha 33), removemos 1 elemento
+// e substituimos ele por "Gandalf, o cinzento"
+
+console.log(sociedade); // Mostra o valor alterado
+console.log(elementosRemovidos); // Mostra o que foi removido
+
+// Iterar sobre os Elementos
+
+for (let indice = 0; indice < sociedade.length; indice++) { // Usando o for para ler os elementos da variavel sociedade, o indice foi alterado para 0
+    const elemento = sociedade[indice] // Cria a variavel elemento, que vai lendo os nomes da variavel sociedade pelo indice dela (lê um por um)
+    console.log(elemento + " se encontra na posição: " + indice); // Lista o nome da pessoa da sociedade e mostra sua posição pelo indice
+}
