@@ -65,3 +65,5 @@ for (let indice = 0; indice < sociedade.length; indice++) { // Usando o for para
     const elemento = sociedade[indice] // Cria a variavel elemento, que vai lendo os nomes da variavel sociedade pelo indice dela (lê um por um)
     console.log(elemento + " se encontra na posição: " + indice); // Lista o nome da pessoa da sociedade e mostra sua posição pelo indice
 }
+
+// Faça o exercicio 07 depois dessa aula!
