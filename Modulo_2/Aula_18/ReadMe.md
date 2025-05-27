@@ -25,7 +25,7 @@ let name = "prop"
 objeto[name] = "Olá Mundo"
 objeto.prop === objeto[name]
 let funcao = "executar"
-ubjeto[funcao]()
+objeto[funcao]()
 
 ![Foto explicativa 01](image.png)
 
