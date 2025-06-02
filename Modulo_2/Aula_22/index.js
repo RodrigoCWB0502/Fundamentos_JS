@@ -47,3 +47,5 @@ avaliarNota(83)
 avaliarNota(49)
 
 {/* Ou seja, o var fica disponível no escopo mais interno, o que é ruim pois pode atrapalhar o código */}
+
+// Fazer exercicio 09
