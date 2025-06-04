@@ -67,7 +67,7 @@ console.log(nivelTotal);
 
 const racas = personagens.reduce(function (valorAcumulado, personagem) {
     if (valorAcumulado[personagem.raca]) { // Verifica se existe a chave valorAcumulado, se existir ele devolve um array
-        valorAcumulado[personagem.reca].push(personagem) // Adiciona o personagem atual, na chave da raça dele
+        valorAcumulado[personagem.raca].push(personagem) // Adiciona o personagem atual, na chave da raça dele
     } else {
         valorAcumulado[personagem.raca] = [personagem] // Cria a propriedade caso ela não exista, com o personagem atual [personagem]
     }
@@ -76,3 +76,5 @@ const racas = personagens.reduce(function (valorAcumulado, personagem) {
 }, {}) // Objeto é criado aqui (Vazio)
 
 console.log(racas);
+
+// Assista esse video para mais explicações: https://www.youtube.com/watch?v=PojpwEbOQJg
