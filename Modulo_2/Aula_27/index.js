@@ -78,3 +78,31 @@ const racas = personagens.reduce(function (valorAcumulado, personagem) {
 console.log(racas);
 
 // Assista esse video para mais explicações: https://www.youtube.com/watch?v=PojpwEbOQJg
+
+// Sort - altera o array original e ordenar arrays (pega os elementos e muda de posição de acordo com o critério)
+
+// ordenar por nível
+
+// o sort vai fazendo uma comparação em partes para ordenar o array - vai comparando os elementos de 2 em 2 e vai ordenando eles
+// Menor para o maior
+personagens.sort(function (a, b) {
+    return a.nivel - b.nivel // se o nível de A for maior do que B, essa comparação vai retornar positivo, então joga o A mais pra frente do array 
+})
+
+console.log(personagens);
+
+// Maior para o menor 
+personagens.sort(function (a, b) {
+    return b.nivel - a.nivel // se o nível do personagem B for menor que o personagem A, joga ele mais pra frente do array
+})
+
+console.log(personagens);
+
+// Armazenando numa variável:
+
+const novoArray = personagens.slice().sort(function (a, b) { // O slice cria um novo array desde o inicio, pois ele não tem nada dentro dos (), então o novoArray não altera o array normal
+    return b.nivel - a.nivel
+})
+
+console.log(personagens);
+console.log(novoArray); // Comente a linha 99 e 92
